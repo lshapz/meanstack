@@ -1,0 +1,20 @@
+the video says it'll be created automatically by mongoose -- not true -- it'll be implicitly created with first document
+
+db.books.insert({
+    title: 'Refactoring the DOM',
+    author: 'Joe Blow',
+    category: 'Technology'
+})
+
+db.books.insert({
+    title: 'Learn Colloquial Speech',
+    author: 'Susie Q',
+    category: 'Humanities'
+})
+
+db.books.insert({
+    title: 'Study of the Brain',
+    author: 'Matt G',
+    category: 'Health'
+})
+
